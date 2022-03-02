@@ -3,7 +3,7 @@ Vue Pinia
 
 Exercises from the official [Pinia](https://pinia.vuejs.org/) documentation
 
-[Introduction](https://pinia.vuejs.org/introduction.html#introduction)
+[00-Introduction](https://pinia.vuejs.org/introduction.html#introduction)
 
 [Basic example](https://pinia.vuejs.org/introduction.html#basic-example)
 
@@ -15,6 +15,6 @@ Exercises from the official [Pinia](https://pinia.vuejs.org/) documentation
 
 [Defining a Store](https://pinia.vuejs.org/core-concepts/#defining-a-store)
 
-[01-defining-a-store-A](https://gist.github.com/ejimenez123/8f165937e7f5d9d9cd23aabb0f309d5f)
+[Pinia 01-Defining a Store A](https://gist.github.com/ejimenez123/8f165937e7f5d9d9cd23aabb0f309d5f)
 
-[01-defining-a-store-B](https://gist.github.com/ejimenez123/a71624b89b6d7760bbca81207d0174e8)
+[Pinia 01-Defining a Store B](https://gist.github.com/ejimenez123/a71624b89b6d7760bbca81207d0174e8)
