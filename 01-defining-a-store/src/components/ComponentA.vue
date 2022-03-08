@@ -2,6 +2,8 @@
 import { useStore } from '@/stores/mainA'
 
 const store = useStore()
+// ❌ This won't work because it breaks reactivity
+// it's the same as destructuring from `props`
 //const { name, increment, doubleCount } = store
 //name = "Eduardo A"
 //increment()
