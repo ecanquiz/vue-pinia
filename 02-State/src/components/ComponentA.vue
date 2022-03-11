@@ -1,10 +1,16 @@
 <script setup>
-import { useStore } from '@/stores/mainA'
+import { useStore } from '@/stores/useStore'
 
 const store = useStore()
 
 store.counter++
 
+store.$patch({
+  counter: store.counter + 1,
+  name: 'Abalam',
+})
+
+//store.$reset()
 </script>
 
 <template>  

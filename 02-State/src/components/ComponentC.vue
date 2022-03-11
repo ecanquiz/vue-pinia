@@ -1,20 +1,17 @@
+<script setup>
+import { cartStore } from '@/stores/cartStore'
+
+const store = cartStore()
+
+store.$patch((state) => {
+  state.items.push({ name: 'shoes', quantity: 1 })
+  state.hasChanged = true
+})
+
+</script>
+
 <template>  
-  <div>{{ store.counter }}</div>
-  <div>{{ tripleCounter }}</div>
+  <div>{{ store.items }}</div>
+  <div>{{ store.hasChanged }}</div>
 </template>
 
-<script>
-import { useCounterStore } from '@/stores/counterStore'
-
-export default {
-  setup() {
-    const store = useCounterStore()
-    return { store }
-  },
-  computed: {
-    tripleCounter() {
-      return this.store.counter * 3
-    },
-  },
-}
-</script>
